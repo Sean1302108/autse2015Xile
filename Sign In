@@ -11,7 +11,7 @@
 		<form action="postprocess.php" method="POST">	
 			
 			Username(required):			
-			<input type="text" name="status">		
+			<input type="text" name="user">		
 			<br>			
 			<br>
 			
