@@ -7,7 +7,7 @@
 		
 		<h1>SERLER</h1>
 		
-		<form>
+		<form action="results.php" method = "POST">
 			
 			Practice Name: 
 			<input type="text" name="practice">
