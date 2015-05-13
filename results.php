@@ -11,6 +11,6 @@
 		    echo "<p> Results for $name :</p>"
 		    ?>
 		    
-		</body>
-		</html>
+	</body>
+	</html>
 	
