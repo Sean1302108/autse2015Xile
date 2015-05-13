@@ -8,7 +8,7 @@
 		<h1>SERLER</h1>
 		  <?php
 		    $name = $_POST["practice"];
-		    echo "<p> Results for $name :</p>"
+		    echo "<p> Results for $name :</p>";
 		    ?>
 		    
 	</body>
