@@ -5,10 +5,12 @@
 	</head>
 	<body> 
 	
-		<h1>SERLER</h1>
+	<h1>SERLER</h1>
 		<?php
-		    echo "Succesfully signed in";
-    ?>
+			$user = $_POST["user"];
+			$password = $_POST["code"];
+	    		echo "Succesfully signed in";
+    		?>
     </body>
     </html>
 		
