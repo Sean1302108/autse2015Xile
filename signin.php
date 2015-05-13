@@ -8,7 +8,7 @@
 		
 		<h1>SERLER</h1>
 		
-		<form action="postprocess.php" method="POST">	
+		<form action="signinprocess.php" method="POST">	
 			
 			Username(required):			
 			<input type="text" name="user">		
