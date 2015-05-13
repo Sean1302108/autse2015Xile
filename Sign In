@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>	
+	<head>		
+		<title>Post Status Form</title>		
+	</head>	
+	<body>
+		
+		<h1>SERLER</h1>
+		
+		<form action="postprocess.php" method="POST">	
+			
+			Username(required):			
+			<input type="text" name="status">		
+			<br>			
+			<br>
+			
+			Password (required):			
+			<input type="text" name="code" maxlength="5">
+			<br>
+			<br>		
+			
+			<input type="submit" value="Submit">
+			
+			<input type="reset" value="Reset"> 
+			
+		</form>		
+		
+		<br>		
+		<a href="mainmenu.php">Return to Home Page</a>
+		
+	</body>		
+</html>		
