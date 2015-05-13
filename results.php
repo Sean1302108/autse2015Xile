@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		
-		<h1>SERLER</h1>
+		<h1>SERLER results</h1>
 		  <?php
 		    $name = $_POST["practice"];
 		    echo "<p> Results for $name :</p>";
