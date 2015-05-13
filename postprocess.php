@@ -11,6 +11,7 @@
 			$password = $_POST["code"];
 	    		echo "Succesfully signed in";
     		?>
+    		<a href="mainmenu.php">Return to Home Page</a>
     </body>
     </html>
 		
