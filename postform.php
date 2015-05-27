@@ -112,8 +112,8 @@
 				}
 				
 				echo "<br>", $methodologynameErr, "</br>";
-				echo "<br>", $methodologydescriptionErr, "</br>";;
-				echo "<br>", $radioErr, "</br>";;
+				echo "<br>", $methodologydescriptionErr, "</br>";
+				echo "<br>", $radioErr, "</br>";
 				
 				
 				
