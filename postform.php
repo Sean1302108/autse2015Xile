@@ -125,7 +125,7 @@
 				if($methodologynameErr === null and $methodologydescriptionErr === null and $radioErr === null) {
 					$query = "INSERT INTO Sprint2(methodologyname, methodologydescription, methodname, methoddescription, bibref , researchlevel, radio, credreason, credrater, question, rdmethod, metrics, participants, benefit, result, method, context, conlevel, conreason, conrater)
 					VALUES('{$methodologyname}','{$methodologydescription}','{$methodname}','{$methoddescription}','{$bibref}','{$researchlevel}','{$radio}','{$credreason}','{$credrater}','{$question}','{$rdmethod}','{$metrics}','{$participants}','{$benefit}','{$result}','{$method}','{$context}','{$conlevel}','{$conreason}','{$conrater}')";
-					if (mysqli_query($conn, $query)) {
+					if ($result) {
 						echo "Success you have entered correctly and the table exists";
 						}else{
 						echo "<br>Failed</br>";
