@@ -12,14 +12,6 @@
 			<form action="poststatusprocess.php" method="POST">
 			<h1>SERLER</h1>
 			
-				<h2> Practise </h2>
-				<select name="practiceList">
-			  	<option value="">Select...</option>
-			  	<option value="P">Practice 1</option>
-			  	<option value="P2">Practice 2</option>
-				</select>
-				<br>
-				<br>
 				
 				<h2>Methodology</h2>
 				Name
@@ -27,6 +19,15 @@
 				<br>
 				Description
 				<input type="text" name="methodologydescription" size="40">
+				<br>
+				<br>
+				
+				<h2>List of Practises </h2>
+				<select name="practiceList">
+			  	<option value="">Select...</option>
+			  	<option value="P">Practice 1</option>
+			  	<option value="P2">Practice 2</option>
+				</select>
 				<br>
 				<br>
 				
@@ -42,11 +43,6 @@
 				<br>
 				<br>
 				
-				<h2>Evidence Source</h2>
-				Bib Ref
-				<input type="text" name="bibref">
-				<br>
-				
 				<h2> Research level </h2>
 				<select name="researchLevel">
 			  	<option value="">Select...</option>
@@ -59,6 +55,24 @@
 				<br>
 				<br>
 				
+				<h2>Nature of participants</h2>
+				<select name="researchLevel">
+			  	<option value="">Select...</option>
+			  	<option value="N">Nature 1</option>
+			  	<option value="N2">Nature 2</option>
+			  	<option value="N3">Nature 3</option>
+			  	<option value="N4">Nature 4</option>
+			  	<option value="N5">Nature 5</option>
+				</select>
+				<br>
+				<br>
+				
+				<h2>Evidence Source</h2>
+				Bib Ref
+				<input type="text" name="bibref">
+				<br>
+				
+
 				<h2>Credibility Rating</h2>
 				Credibility Level
 				1<input type="radio" name="radio" value="1">
@@ -115,16 +129,6 @@
 				How:<input type="text" name="context">
 				<br>
 				<br>
-				
-				<h2>Nature of participants</h2>
-				<select name="researchLevel">
-			  	<option value="">Select...</option>
-			  	<option value="N">Nature 1</option>
-			  	<option value="N2">Nature 2</option>
-			  	<option value="N3">Nature 3</option>
-			  	<option value="N4">Nature 4</option>
-			  	<option value="N5">Nature 5</option>
-				</select>
 				
 				<h2>Confidence Rating</h2>
 				Confidence level 
