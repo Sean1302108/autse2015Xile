@@ -97,7 +97,7 @@
 				}
 				
 				if(empty($_POST["methodologydescription"])) {
-					$methodologydescriptionErr = "Status is Required";
+					$methodologydescriptionErr = "Methodology Description is Required";
 					} else {
 					if (!preg_match("/^[a-zA-Z 0-9,!?]+$/",$methodologydescription)) {
 						$methodologydescriptionErr = "-The Methodology Description can only number values,
