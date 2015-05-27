@@ -119,8 +119,7 @@
 				
 				
 				
-				$query = "CREATE TABLE if not exists Assignment1 
-				(methodologyname varchar(40), methodologydescription varchar(40),methodname varchar(40), methoddescription varchar(40), bibref varchar(40), researchlevel varchar(40), radio varchar(40), credreason varchar(40), credrater varchar(40), question varchar(40), rdmethod varchar(40), metrics varchar(40), participants varchar(40), benefit varchar(40), result varchar(40), method varchar(40), context varchar(40), conlevel varchar(40), conreason varchar(40), conra varchar(40))";
+				$query = "CREATE TABLE if not exists Sprint2(methodologyname varchar(40), methodologydescription varchar(40),methodname varchar(40), methoddescription varchar(40), bibref varchar(40), researchlevel varchar(40), radio varchar(40), credreason varchar(40), credrater varchar(40), question varchar(40), rdmethod varchar(40), metrics varchar(40), participants varchar(40), benefit varchar(40), result varchar(40), method varchar(40), context varchar(40), conlevel varchar(40), conreason varchar(40), conra varchar(40))";
 				$result= mysqli_query($conn, $query);
 				
 				if($methodologynameErr === null and $methodologydescriptionErr === null and $radioErr === null) {
