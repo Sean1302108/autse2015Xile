@@ -22,7 +22,7 @@
 				<br>
 				<br>
 				
-				<h2>List of Practises </h2>
+				<h2>List of Practices </h2>
 				<select name="practiceList">
 			  	<option value="">Select...</option>
 			  	<option value="P">Practice 1</option>
