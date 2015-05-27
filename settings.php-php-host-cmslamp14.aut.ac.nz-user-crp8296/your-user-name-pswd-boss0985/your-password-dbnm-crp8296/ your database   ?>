@@ -1,0 +1,12 @@
+
+<?php
+
+	$host = ""; 
+
+	$user = ""; // your user name 
+
+	$pswd = ""; // your password 
+
+	$dbnm = ""; // your database 
+
+?>
