@@ -4,12 +4,12 @@
 	
 	<head>
 		
-		<title>Post Status Form</title>
+		<title>Form</title>
 		
 	</head>
 	<body>
 				
-			<form action="poststatusprocess.php" method="POST">
+			<form action="postform.php" method="POST">
 			<h1>SERLER</h1>
 			
 				
@@ -105,13 +105,13 @@
 				<br>
 				
 				<h2>Evidence Item</h2>
-				Benefit/outcome under test 
+				Benefit/outcome under test 
 				<input type="text" name="benefit">
 				<br>
 				Result
 				<input type="text" name="result">
 				<br>
-				method implementation integrity
+				method implementation integrity
 				<input type="text" name="method">
 				<br>
 				Context
@@ -131,20 +131,30 @@
 				<br>
 				
 				<h2>Confidence Rating</h2>
-				Confidence level 
+				Confidence level 
 				<input type="text" name="conlevel">
 				<br>
-				Reason 
+				Reason 
 				<input type="text" name="conreason">
 				<br>
 				Rater
 				<input type="text" name="conrater">
+
+
 				<br>
+
 				<br>
+
+				<input type="submit" value="Post">
+
+				<input type="reset" value="Reset"> 
+
+				<a href="search.php">Search Practice</a>
+
 				
-				<br>
-				<a href="index.php">Return to Home Page</a>
-	
+
 			</form>			
+
 	</body>
+
 </html>
