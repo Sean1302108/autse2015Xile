@@ -11,6 +11,16 @@
 				
 			<form action="poststatusprocess.php" method="POST">
 			<h1>SERLER</h1>
+			
+				<h2> Practise </h2>
+				<select name="practiceList">
+			  	<option value="">Select...</option>
+			  	<option value="P">Practice 1</option>
+			  	<option value="P2">Practice 2</option>
+				</select>
+				<br>
+				<br>
+				
 				<h2>Methodology</h2>
 				Name
 				<input type="text" name="methodologyname" maxlength="40">
@@ -20,12 +30,15 @@
 				<br>
 				<br>
 				
-				<h2>Method</h2>
-				Name
-				<input type="text" name="methodname">
-				<br>
-				Description
-				<input type="text" name="methoddescription">
+				<h2>Research method</h2>
+				<select name="researchMethod">
+			  	<option value="">Select...</option>
+			  	<option value="M">Method 1</option>
+			  	<option value="M2">Method 2</option>
+			  	<option value="M3">Method 3</option>
+			  	<option value="M4">Method 4</option>
+			  	<option value="M5">Method 5</option>
+				</select>
 				<br>
 				<br>
 				
@@ -33,8 +46,16 @@
 				Bib Ref
 				<input type="text" name="bibref">
 				<br>
-				Research Level
-				<input type="text" name="researchlevel">
+				
+				<h2> Research level </h2>
+				<select name="researchLevel">
+			  	<option value="">Select...</option>
+			  	<option value="L">Level 1</option>
+			  	<option value="L2">Level 2</option>
+			  	<option value="L3">Level 3</option>
+			  	<option value="L4">Level 4</option>
+			  	<option value="L5">Level 5</option>
+				</select>
 				<br>
 				<br>
 				
@@ -94,6 +115,16 @@
 				How:<input type="text" name="context">
 				<br>
 				<br>
+				
+				<h2>Nature of participants</h2>
+				<select name="researchLevel">
+			  	<option value="">Select...</option>
+			  	<option value="N">Nature 1</option>
+			  	<option value="N2">Nature 2</option>
+			  	<option value="N3">Nature 3</option>
+			  	<option value="N4">Nature 4</option>
+			  	<option value="N5">Nature 5</option>
+				</select>
 				
 				<h2>Confidence Rating</h2>
 				Confidence level 
