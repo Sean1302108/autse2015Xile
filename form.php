@@ -4,10 +4,11 @@
 	
 	<head>
 		
-		<title>Form</title>
+		<title>Post Status Form</title>
 		
 	</head>
 	<body>
+<center>
 				
 			<form action="postform.php" method="POST">
 			<h1>SERLER</h1>
@@ -15,10 +16,23 @@
 				
 				<h2>Methodology</h2>
 				Name
-				<input type="text" name="methodologyname" maxlength="40">
+<br>
+				<input type="text" name="methodologyname">
 				<br>
 				Description
+<br>
 				<input type="text" name="methodologydescription" size="40">
+				<br>
+				<br>
+	
+				<h2>Method</h2>
+				Name
+<br>
+				<input type="text" name="methodname">
+				<br>
+				Description
+<br>
+				<input type="text" name="methoddescription">
 				<br>
 				<br>
 				
@@ -56,7 +70,7 @@
 				<br>
 				
 				<h2>Nature of participants</h2>
-				<select name="researchLevel">
+				<select name="nature">
 			  	<option value="">Select...</option>
 			  	<option value="N">Nature 1</option>
 			  	<option value="N2">Nature 2</option>
@@ -69,6 +83,7 @@
 				
 				<h2>Evidence Source</h2>
 				Bib Ref
+<br>
 				<input type="text" name="bibref">
 				<br>
 				
@@ -82,39 +97,48 @@
 				5<input type="radio" name="radio" value="5">
 				<br>
 				Reason
+<br>
 				<input type="text" name="credreason">
 				<br>
 				Rater
+<br>
 				<input type="text" name="credrater">
 				<br>
 				<br>
 				
 				<h2>Research Design</h2>
 				Question
+<br>
 				<input type="text" name="question">
 				<br>
 				Method
+<br>
 				<input type="text" name="rdmethod">
 				<br>
 				Metrics
+<br>
 				<input type="text" name="metrics">
 				<br>
 				Participants
+<br>
 				<input type="text" name="participants">
 				<br>
 				<br>
 				
 				<h2>Evidence Item</h2>
 				Benefit/outcome under test 
+<br>
 				<input type="text" name="benefit">
 				<br>
 				Result
+<br>
 				<input type="text" name="result">
 				<br>
 				method implementation integrity
+<br>
 				<input type="text" name="method">
 				<br>
-				Context
+				Context:
 				<br>
 				Why:<input type="text" name="context">
 				<br>
@@ -132,12 +156,15 @@
 				
 				<h2>Confidence Rating</h2>
 				Confidence level 
+<br>
 				<input type="text" name="conlevel">
 				<br>
 				Reason 
+<br>
 				<input type="text" name="conreason">
 				<br>
 				Rater
+<br>
 				<input type="text" name="conrater">
 
 
@@ -145,16 +172,17 @@
 
 				<br>
 
-				<input type="submit" value="Post">
+				<input type="submit" value="Submit">
 
 				<input type="reset" value="Reset"> 
+<br>
 
 				<a href="search.php">Search Practice</a>
 
 				
 
 			</form>			
-
+<center>
 	</body>
 
 </html>
