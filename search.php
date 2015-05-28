@@ -15,7 +15,7 @@
 			</form>
 			
 			<p>
-				<a href="form.php">Return to Home Page </a>
+				<a href="form.php">Return to form </a>
 			</p>
 			
 			
