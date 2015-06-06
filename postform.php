@@ -2,8 +2,52 @@
 <html>
 	<head>
 		<title>Post Form</title>
+		<link rel ="stylesheet" type ="text/css" href="style_1.css">	
 	</head>
-	<body>		
+	<body> 
+	<div id="wrap">
+	<div id ="header">
+	<h1>SERLER</h1>
+	</div>
+				<div id="left">
+	<h2> Navigation</h2>
+	<ul>
+		<li>	
+			<a href="mainmenu.php">Home</a>
+		</li>
+		<li> 
+			<a href="form.php">Submit Article</a>
+		</li>
+		<li>
+			<a href="search.php">Search Article</a>
+		</li>
+		<li>
+			<a href="about.php">About</a>
+		</li>
+		<li>
+			<a href="signin.php">Sign in</a>
+		</li>
+		</ul>
+	<h2> Papers </h2>
+	<ul>
+		<li>
+			<a href="#"> Paper 1 </a>
+		</li>
+		<li>
+			<a href="#"> Paper 2 </a>
+		</li>
+		<li>
+			<a href="#"> Paper 3 </a>
+		</li>
+		<li>
+			<a href="#"> Paper 4 </a>
+		</li>
+		<li>
+			<a href="#"> Paper 5 </a>
+		</li>
+		</ul>
+	</div>
+		<div id="right">
 			<?php
 				
 				$methodologyname = "";
@@ -52,26 +96,6 @@
 				$methodologydescriptionErr = null;
 				$radioErr = null;
 				
-				echo "<br>", $methodologyname, "</br>";
-				echo "<br>", $methodologydescription, "</br>";
-				echo "<br>", $methodname, "</br>";
-				echo "<br>", $methoddescription, "</br>";
-				echo "<br>", $bibref, "</br>";
-				echo "<br>", $researchlevel, "</br>";
-				echo "<br>", $radio, "</br>";
-				echo "<br>", $credreason, "</br>";
-				echo "<br>", $credrater, "</br>";
-				echo "<br>", $question, "</br>";
-				echo "<br>", $rdmethod, "</br>";
-				echo "<br>", $metrics, "</br>";
-				echo "<br>", $participants, "</br>";
-				echo "<br>", $benefit, "</br>";
-				echo "<br>", $result, "</br>";
-				echo "<br>", $method, "</br>";
-				echo "<br>", $context, "</br>";
-				echo "<br>", $conlevel, "</br>";
-				echo "<br>", $conreason, "</br>";
-				echo "<br>", $conrater, "</br>";
 				
 				require_once ('settings.php'); 
 				$conn = @mysqli_connect($host, $user, $pswd)
@@ -140,10 +164,11 @@
 			?>
 			<br>
 		<a href="form.php">Return to Form</a>
-<br>
-<a href="search.php">Search Practice</a>
+		</div>
 
-		
-
-		</body>
-		</html>		
+	<div style ="clear: both;"> </div>
+	<div id ="footer">
+	SERLER Designed and produced by Team Xile
+	</div>
+	</body>
+</html>		
