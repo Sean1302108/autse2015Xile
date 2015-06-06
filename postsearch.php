@@ -11,21 +11,29 @@
 	<center>
 			<?php
 				
-				
+						/*
+				calls to database
+				*/
 				$input = $_GET["input"];
 				require_once ("settings.php"); 
 				$conn = @mysqli_connect($host, $user, $pswd)
 				or die('Failed to connect to server');
-				
+					/*
+				if database not available will print error message
+				*/
 				@mysqli_select_db($conn, $dbnm)
 				or die('Database not available');
-				
+						/*
+				query to database
+				*/
 				$query = "SELECT * FROM Sprint2 WHERE methodologyname like '%{$input}%' or methodologydescription like '%{$input}%' or radio like '%{$input}%'";
 				$results = mysqli_query($conn, $query);
 				
 				echo "<table width='50%' border ='1'>";
 				echo "<tr><th>methodology <br>name</th><th>methodology <br> description</th><th>method<br> name</th><th>method <br>description</th><th>bib <br>ref</th><th>research<br> level</th><th>Rating</th><th>cred reason</th><th>credrater</th><th>question</th><th>rd <br>method</th><th>metrics</th><th>participants</th><th>benefit</th><th>result</th><th>method</th><th>context</th><th>con <br>level</th><th>con <br>reason</th><th>con <br>rater</th></tr>";
-				
+					/*
+				grabs data from database and posts to table
+				*/
 				while($row = mysqli_fetch_assoc($results)) {
 					echo "<tr><td> {$row['methodologyname']}</td>";
 					echo "<td> {$row['methodologydescription']}</td>";
